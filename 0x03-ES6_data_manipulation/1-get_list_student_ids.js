@@ -1,6 +1,6 @@
 
 export function default getListStudentIds(stds){
-    if (students instanceof Array) {
+    if (stds instanceof Array) {
     return stds.map((student) => student.id);
   }
   return [];
