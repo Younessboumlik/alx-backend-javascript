@@ -1,6 +1,7 @@
 export default function appendToEachArrayValue(array, appendString) {
-  for (var x of array) {
-    x = appendString + x;
+  for (var elem of array) {
+    var value = elem;
+    elem = appendString + value;
   }
 
   return array;
