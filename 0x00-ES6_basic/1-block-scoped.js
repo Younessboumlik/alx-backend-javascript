@@ -4,9 +4,8 @@ export default function taskBlock(trueOrFalse) {
 
   if (trueOrFalse) {
     (function() {
-      let task = true;
-      let task2 = false;
-      // You can use task and task2 here.
+      task = true;
+      task2 = false;
     })();
   }
 
