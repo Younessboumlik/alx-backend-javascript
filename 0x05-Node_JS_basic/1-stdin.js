@@ -1,7 +1,7 @@
 /**
  * Taking input and then output it.
  */
-process.stdout.write('Welcome to Holberton School, what is your name?\n');
+console.log('Welcome to Holberton School, what is your name?');
 
 process.stdin.on('data', (inp) =>
 {
